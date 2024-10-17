@@ -1,0 +1,49 @@
+$main-fonts: Lato, sans-serif;
+$bg-color: #d5f4ff;
+$header-color: #5b7a98;
+$hover-color: #7f98b5;
+
+body {
+  background-color: $bg-color;
+}
+
+.card-header {
+  background-color: $header-color;
+  font-weight: bold;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.card-body {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#editor {
+  min-height: 150px;
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  font-size: 12px;
+  outline: none;
+}
+
+#preview {
+  min-height: 100px;
+  font-size: 12px;
+}
+
+.fullscreen {
+  position: fixed;
+  top: 16px;
+  height: calc(100vh - 25px);
+  z-index: 9999;
+  overflow: auto;
+}
+
+.hide {
+  display: none;
+}
+
+.fa-maximize:hover {
+  color: $hover-color;
+}
