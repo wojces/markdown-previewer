@@ -1,3 +1,3 @@
 ### Markdown Previewer
 
-[visit app](https://wojces.github.io/markdown-previewer/)
+[visit project site](https://wojces.github.io/markdown-previewer/)
